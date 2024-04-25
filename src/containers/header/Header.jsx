@@ -1,6 +1,6 @@
 import "./header.css";
 import peopleImg from "../../assets/people.png";
-import aiImg from "../../assets/ai..png";
+import aiImg from "../../assets/ai.png";
 
 const Header = () => {
   return (
