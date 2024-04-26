@@ -6,7 +6,9 @@ const Feature = ({ title, text }) => {
         <div />
         <h1>{title}</h1>
       </div>
-      <div className="features_container_feature_text">{text}</div>
+      <div className="features_container_feature_text">
+        <p>{text}</p>
+      </div>
     </div>
   );
 };
