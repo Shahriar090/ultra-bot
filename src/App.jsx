@@ -1,13 +1,7 @@
-import {
-  AboutUltraBot,
-  Blogs,
-  Features,
-  Footer,
-  Header,
-  Possibility,
-} from "./containers";
+import { Blogs, Features, Footer, Header, Possibility } from "./containers";
 
 import { Cta, Navbar, Brand } from "./components";
+import WhatUltraBot from "./containers/whatUltraBot/WhatUltraBot";
 function App() {
   return (
     <div className="App">
@@ -16,7 +10,7 @@ function App() {
         <Header />
       </div>
       <Brand />
-      <AboutUltraBot />
+      <WhatUltraBot />
       <Features />
       <Possibility />
       <Cta />
