@@ -16,7 +16,7 @@ const Navbar = () => {
             <a href="#home">Home</a>
           </p>
           <p>
-            <a href="#wub">What is Ultra-Bot?</a>
+            <a href="#what_ultrabot">What is Ultra-Bot?</a>
           </p>
           <p>
             <a href="#possibility">Open AI</a>
